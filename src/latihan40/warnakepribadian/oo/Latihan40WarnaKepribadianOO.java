@@ -18,11 +18,10 @@ package latihan40.warnakepribadian.oo;
 public class Latihan40WarnaKepribadianOO {
 
     public static void main(String[] args) {
-        // TODO code application logic here
-         Warna wrn = new Warna();
-        wrn.inputWarna();
-        wrn.inputNama();
-        wrn.cekWarna();
+        User user = new User();
+        user.masukkanWarna();
+        user.masukkanNama();
+        user.menentukanKepribadian();
+        System.out.println("Developed by : Alfi Nurizkya");
     }
-    
 }
